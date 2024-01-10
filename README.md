@@ -113,7 +113,7 @@ So, this package try to help you:
         client_session_keep_alive: False
     ```
 
-### Documentation site
+### Configure the documentation site
 
 This package uses the [mkdocs](https://www.mkdocs.org/) for handeling its documentation.
 
@@ -144,7 +144,7 @@ This package uses the [mkdocs](https://www.mkdocs.org/) for handeling its docume
     http://127.0.0.1:8000/snowflake-evaluator/
     ```
 
-### Streamlit app
+### Install the Streamlit app
 
 You can find our simple Streamlit app what you can install into your Snowflake account and investigate the results ouf your helth check.
 
@@ -174,6 +174,11 @@ from br_maintenance.sae_mart.agg_results
 where rule_status = 'FAIL'
 order by rule_name;
 ```
+
+## Visualise with Streamlit
+
+You can use the provided Streamlit application to visualise the result. After installing the Streamlit app and run the investigation, arriving to the health check result. An example how it looks like:
+<img src="./docs/assets/streamlit_example_result.png" alt="Streamlit Example Result">
 
 ## License
 The content of this site is licensed under the [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) License.
