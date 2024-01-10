@@ -174,3 +174,22 @@ from br_maintenance.sae_mart.agg_results
 where rule_status = 'FAIL'
 order by rule_name;
 ```
+
+## License
+The content of this site is licensed under the [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) License.
+
+## About Infinite Lambda
+Infinite Lambda is a cloud and data consultancy. We build strategies, help organisations implement them and pass on the expertise to look after the infrastructure.
+
+We are an Elite Snowflake Partner, a Platinum dbt Partner and two-times Fivetran Innovation Partner of the Year for EMEA.
+
+Naturally, we love exploring innovative solutions and sharing knowledge, so go ahead and:
+
+🔧 Take a look around our [Git](https://github.com/infinitelambda) </br>
+✏️ Browse our [tech blog](https://infinitelambda.com/category/tech-blog/)
+
+We are also chatty, so:</br>
+#️⃣ Follow us on [LinkedIn](https://www.linkedin.com/company/infinite-lambda/) </br>
+👋🏼 Or just [get in touch](https://infinitelambda.com/contacts/)
+
+[<img src="https://raw.githubusercontent.com/infinitelambda/cdn/main/general/images/GitHub-About-Section-1080x1080.png" alt="About IL" width="500">](https://infinitelambda.com/)
