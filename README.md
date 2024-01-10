@@ -152,7 +152,9 @@ Get the code under the streamlit folder and on the Snowflake UI navigate to the 
 
 Be sure you are using the same ROLE that you created at the above step!
 
-## Run the Snowflake Evaluator
+## Using the package
+
+### Run the Snowflake Evaluator
 
 We provide a shell script to run the dbt models in the right order, because it uses snapshotting and a complex macro which also breaks the dbt dependency tree.
 
@@ -164,7 +166,7 @@ run_dbt.sh
 
 It will refresh the models, bauild the history tables in the STAGE layer.
 
-## Querying the result
+### Querying the result
 
 Show the failed best practice rules:
 
@@ -175,10 +177,12 @@ where rule_status = 'FAIL'
 order by rule_name;
 ```
 
-## Visualise with Streamlit
+### Visualise with Streamlit
 
 You can use the provided Streamlit application to visualise the result. After installing the Streamlit app and run the investigation, arriving to the health check result. An example how it looks like:
+
 <img src="./docs/assets/streamlit_example_result.png" alt="Streamlit Example Result">
+
 
 ## License
 The content of this site is licensed under the [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/) License.
